@@ -1,0 +1,26 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "mocha": "3.0.0",
+    "supertest": "0.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stvnorg/helloworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stvnorg/helloworld/issues"
+  },
+  "homepage": "https://github.com/stvnorg/helloworld#readme"
+}
