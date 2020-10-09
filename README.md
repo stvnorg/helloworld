@@ -4,3 +4,4 @@ Test evaluate variable
 New line for testing
 Another line for testing
 Another line
+Another line, hope this works!, must be!
