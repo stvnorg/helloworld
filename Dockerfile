@@ -2,7 +2,7 @@ FROM node:14.13-slim
 
 EXPOSE 3000
 
-ARGS PORT=3000
+ARG PORT=3000
 
 WORKDIR /app
 COPY . /app
