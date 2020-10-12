@@ -2,15 +2,13 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-namespace: steven
-
 replicaCount: 1
 
 image:
   repository: s7even/helloworld
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ${ parameters.deployment-version }
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: "helloworld-chart"
