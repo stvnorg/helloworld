@@ -10,7 +10,7 @@ image:
   repository: s7even/helloworld
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: ${ parameters.deployment-version }
 
 imagePullSecrets: []
 nameOverride: "helloworld-chart"
