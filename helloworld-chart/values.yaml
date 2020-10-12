@@ -4,6 +4,10 @@
 
 replicaCount: 1
 
+containers:
+  env:
+    port: 3000
+
 image:
   repository: s7even/helloworld
   pullPolicy: Always
