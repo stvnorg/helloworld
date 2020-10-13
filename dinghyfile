@@ -1,9 +1,9 @@
 {
   "application": "myapplication",
   "pipelines": [
-     "name": "dinghy",
-     "application": "myapplication",
      {
+       "name": "dinghy",
+       "application": "myapplication",
        "keepWaitingPipelines": false,
        "lastModifiedBy": "anonymous",
        "limitConcurrent": true,
