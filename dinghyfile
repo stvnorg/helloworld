@@ -1,0 +1,55 @@
+{
+  "application": "myapplication",
+  "pipelines": [
+     "name": "dinghy",
+     "application": "myapplication",
+     {
+       "keepWaitingPipelines": false,
+       "lastModifiedBy": "anonymous",
+       "limitConcurrent": true,
+       "spelEvaluator": "v4",
+       "stages": [
+         {
+           "expectedArtifacts": [
+             {
+               "defaultArtifact": {
+                 "customKind": true,
+                 "id": "58eb22ff-997e-4867-b553-09ad9b620df6"
+               },
+               "displayName": "swift-shrimp-28",
+               "id": "01c93e62-c70e-4337-a5da-0ef1bdd31e9f",
+               "matchArtifact": {
+                 "artifactAccount": "embedded-artifact",
+                 "customKind": false,
+                 "id": "182ad915-00e9-4718-ae46-7505e61d5d28",
+                 "type": "embedded/base64"
+               },
+               "useDefaultArtifact": false,
+               "usePriorArtifact": false
+             }
+           ],
+           "inputArtifact": {
+             "account": "steven-gitrepo",
+             "artifact": {
+               "artifactAccount": "steven-gitrepo",
+               "customKind": true,
+               "id": "f1c991bf-7306-4755-a38a-f8871102353b",
+               "reference": "https://github.com/stvnorg/helloworld.git",
+               "type": "git/repo",
+               "version": "master"
+             }
+           },
+           "kustomizeFilePath": "helloworld-kustomize/overlays/dev/kustomization.yml",
+           "name": "Bake (Manifest)",
+           "overrides": {},
+           "refId": "1",
+           "requisiteStageRefIds": [],
+           "templateRenderer": "KUSTOMIZE",
+           "type": "bakeManifest"
+         }
+       ],
+       "triggers": [],
+       "updateTs": "1602544288000"
+     }
+   ]
+}
