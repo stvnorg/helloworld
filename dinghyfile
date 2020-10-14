@@ -4,6 +4,7 @@
     {
       "name": "dinghy-trigger",
       "application": "myapplication",
+      "isNew": true,
       "keepWaitingPipelines": false,
       "lastModifiedBy": "anonymous",
       "limitConcurrent": true,
