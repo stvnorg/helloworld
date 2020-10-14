@@ -13,3 +13,4 @@ Another test jenkins
 Next test
 # comment
 Test artifacts
+Test dinghyfile pipeline
