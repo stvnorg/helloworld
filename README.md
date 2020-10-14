@@ -14,3 +14,4 @@ Next test
 # comment
 Test artifacts
 Test dinghyfile pipeline
+Test dinghyfile
