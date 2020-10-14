@@ -77,6 +77,16 @@
          "waitTime": 30
        },
        {
+         "failOnFailedExpressions": true,
+         "name": "Clean-up Prod",
+         "refId": "9",
+         "requisiteStageRefIds": [
+           "7"
+         ],
+         "type": "wait",
+         "waitTime": 15
+       },
+       {
          "continuePipeline": false,
          "failPipeline": true,
          "job": "myapplication",
