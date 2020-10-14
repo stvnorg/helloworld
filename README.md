@@ -17,3 +17,4 @@ Test dinghyfile pipeline
 Test dinghyfile
 Test SpEL expression
 Fix SpEL Expression - 
+Test SpEL expression - v0.3
