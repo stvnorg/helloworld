@@ -15,3 +15,4 @@ Next test
 Test artifacts
 Test dinghyfile pipeline
 Test dinghyfile
+Test SpEL expression
