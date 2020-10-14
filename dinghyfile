@@ -2,6 +2,8 @@
   "application": "myapplication",
   "pipelines": [
     {
+      "name": "dinghy-trigger",
+      "application": "myapplication",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "anonymous",
       "limitConcurrent": true,
