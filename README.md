@@ -18,3 +18,4 @@ Test dinghyfile
 Test SpEL expression
 Fix SpEL Expression - 
 Test SpEL expression - v0.3
+Test MySQL connection for clouddriver and orca
