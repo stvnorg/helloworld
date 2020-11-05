@@ -41,7 +41,7 @@ spec:
         - name: helloworld
           securityContext:
             {}
-          image: "s7even/helloworld:0.0.1"
+          image: "s7even/helloworld:0.0.2"
           imagePullPolicy: Always
           env:
           - name: PORT
