@@ -26,3 +26,4 @@ Test spinnaker - jenkins trigger by enabling the service account https://spinnak
 Test flux deployment
 Test tagging
 Finalizing tagging
+another test tags
