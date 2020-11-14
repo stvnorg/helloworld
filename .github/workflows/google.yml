@@ -1,5 +1,6 @@
 on:
   push:
+    branches: [master]
     tags:
       - v*.*.*
   pull_request:
@@ -16,5 +17,5 @@ jobs:
         
       - name: Print Env
         run: |-
-          echo $GITHUB_REF
+          echo ${GITHUB_REF#refs/*/}
         
