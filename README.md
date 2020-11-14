@@ -27,3 +27,4 @@ Test flux deployment
 Test tagging
 Finalizing tagging
 another test tags
+Test Github Actions
