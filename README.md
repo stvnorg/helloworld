@@ -24,3 +24,5 @@ Another test spinnaker - Jenkins Trigger
 Test again the spinnaker jenkins trigger
 Test spinnaker - jenkins trigger by enabling the service account https://spinnaker.io/setup/security/authorization/service-accounts/
 Test flux deployment
+Test tagging
+Finalizing tagging
