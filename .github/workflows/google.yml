@@ -1,0 +1,20 @@
+on:
+  push:
+  pull_request:
+    branches: [master]
+    tags: 
+      - 'v*.*.*'
+    
+jobs:
+  setup-build-publish-deploy:
+    name: Setup, Build, Dockerpush
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: Print Env
+        run: |-
+          echo $GITHUB_REF
+        
