@@ -20,7 +20,7 @@ jobs:
         run: |-
           image_version=$(grep "image" version | awk '{print $2}')
           echo "::set-output name=IMAGE_VERSION::$(echo $image_version)"
-          id: image-version
+        id: image-version
 
       - name: Print image_version
         run: echo "${{ steps.image-version.outputs.IMAGE_VERSION }}"
@@ -35,7 +35,6 @@ jobs:
 
       - name: Docker build image
         run: docker build -t "${{ steps.image-version.outputs.IMAGE_VERSION }}" .
-
 
       - name: Docker push image
         run: docker push "${{ steps.image-version.outputs.IMAGE_VERSION }}"
